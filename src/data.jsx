@@ -1,5 +1,5 @@
 //  icons
-import { FiYoutube, FiTwitter, FiGithub, FiLinkedin } from "react-icons/fi";
+import { FiYoutube, FiTwitter, FiGithub, FiLinkedin, FiInstagram } from "react-icons/fi";
 
 // skills images
 import SkillImg1 from "./assets/img/skills/html.png";
@@ -33,25 +33,25 @@ export const navigation = [
 export const social = [
   {
     icon: <FiYoutube />,
-    href: "https://www.youtube.com/channel/UC6duY9-fOnOn42zHRlSaP-g",
+    href: "https://www.youtube.com/channel/UCJlKbVfZry7LJoh0FKtSbHA",
     color: "text-red-500",
     colorHover: "hover:text-red-900",
   },
   {
-    icon: <FiTwitter />,
-    href: "https://twitter.com/GHarakis",
-    color: "text-blue-500",
-    colorHover: "hover:text-blue-900",
+    icon: <FiInstagram />,
+    href: "https://www.instagram.com/jesus_rosarioav/?igshid=MmIzYWVlNDQ5Yg%3D%3D",
+    color: "text-pink-500",
+    colorHover: "hover:text-purple-900",
   },
   {
     icon: <FiGithub />,
-    href: "https://github.com/harakisgeorge",
+    href: "https://github.com/jar285",
     color: "text-white",
     colorHover: "hover:text-gray-500",
   },
   {
     icon: <FiLinkedin />,
-    href: "https://www.linkedin.com/feed/",
+    href: "https://www.linkedin.com/in/jesus-a-912508255/",
     color: "text-blue-500",
     colorHover: "hover:text-blue-900",
   },
