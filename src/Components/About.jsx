@@ -32,6 +32,15 @@ export const About = () => {
                 grow, and I am excited to see where my passions take me next.
                 </p>  
             </div>
+            <a
+              href="https://www.youtube.com/channel/UCJlKbVfZry7LJoh0FKtSbHA"
+              target="_blank"
+              rel="nooopener noreferrer"
+            >
+              <button className="btn btn-md w-[115px] bg-red-600 hover:bg-red-800">
+                Youtube
+              </button>
+            </a>
           </div>
         </div>
       </div>
