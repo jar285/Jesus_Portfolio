@@ -17,7 +17,8 @@ export const Hero = () => {
       className="h-[100vh] bg-primary flex items-center w-full flex-col"
       >
         <div className="container mx-auto h-full flex justify-center">
-          <motion.div className="content-wrapper flex items-center" inital={{ opacity:0, scale:0.5}} animate={animation}>
+          <motion.div className="content-wrapper flex items-center" inital={{ opacity:0, scale:0.5}} 
+          animate={animation}>
             <div className="flex">
               <div className="w-1 mr-8 md:h-72 bg-gradient-to-br from-violet-500 via-pink-500 to-red-500"/>
               <div className="flex flex-col items-center lg:items-start">
